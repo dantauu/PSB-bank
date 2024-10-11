@@ -220,3 +220,16 @@ searchAllElementBtn.forEach(item => {
 })
 
 
+/*  SETTINGS */
+
+const settingsBtn = document.querySelector('.settings')
+const settingsMenu = document.querySelector('.settings-wrapper')
+const krestBtn = document.querySelector('.settings-krest')
+
+settingsBtn.addEventListener('click', () => {
+    settingsMenu.classList.toggle('settings-wrapper_show')
+})
+
+krestBtn.addEventListener('click', () => {
+    settingsMenu.classList.remove('settings-wrapper_show')
+})
