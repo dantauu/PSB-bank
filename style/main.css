@@ -887,7 +887,7 @@ body {
 
 .settings-wrapper {
   position: fixed;
-  transform: translateX(590px);
+  transform: translateX(475px);
   transition: all 0.7s;
   left: 970px;
   bottom: 1px;
