@@ -220,7 +220,7 @@ searchAllElementBtn.forEach(item => {
 })
 
 
-/*  SETTINGS */
+/* HIDE-SETTINGS */
 
 const settingsBtn = document.querySelector('.settings')
 const settingsMenu = document.querySelector('.settings-wrapper')
@@ -232,4 +232,24 @@ settingsBtn.addEventListener('click', () => {
 
 krestBtn.addEventListener('click', () => {
     settingsMenu.classList.remove('settings-wrapper_show')
+})
+
+
+/* HIDE-DOCUMENT */
+
+const documentBtn_1 = document.querySelector('.history-wrapper')
+const documentBtn_2 = document.querySelector('.history_2')  
+const documentMenu = document.querySelector('.document-wrapper')
+const documentKrestBtn = document.querySelector('.wrapper-krest')
+
+documentBtn_1.addEventListener('click', () => {
+    documentMenu.classList.add('document-wrapper_show')
+})
+
+documentBtn_2.addEventListener('click', () => {
+   documentMenu.classList.add('document-wrapper_show')
+})
+
+documentKrestBtn.addEventListener('click', () => {
+    documentMenu.classList.toggle('document-wrapper_show')
 })

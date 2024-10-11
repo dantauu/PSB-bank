@@ -988,6 +988,123 @@ body {
   width: 25px;
 }
 
+/* DOCUMENT-SECTION */
+
+.document-wrapper_this_full_wr {
+  position: relative;
+}
+
+.document-wrapper {
+  transform: translateX(950px);
+  transition: all 0.7s;
+  position: fixed;
+  z-index: 10;
+  bottom: 1px;
+  padding: 100px 90px 0 60px;
+  right: 1px;
+  width: 490px;
+  height: 100%;
+  overflow: auto;
+  background: #ffffff;
+  box-shadow: 0 0 10px #000000;
+  cursor: default;
+}
+
+.wrapper-krest {
+  position: absolute;
+  cursor: pointer;
+  top: 30px;
+  width: 30px;
+}
+
+.document-wrapper_show {
+  transition: all 0.7s;
+  transform: translateX(-1px);
+}
+
+.document-name {
+  display: flex;
+  padding-top: 10px;
+  gap: 15px;
+}
+
+.document-name_form_full_wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.document-name_img {
+  background: #b7b8ee;
+  border-radius: 10px;
+  width: 60px;
+}
+
+.document-name_img_inner {
+  padding: 4px 0 0 8px;
+  width: 50px;
+}
+
+/* MONEY-IN */
+
+.money-in {
+  display: flex;
+  flex-direction: column;
+}
+
+.money-print_img {
+  height: 20px;
+  width: 20px;
+}
+
+/* MONEY-PRINT */
+
+.money-print {
+  margin-top: 20px;
+  padding: 7px 7px;
+  width: 360px;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  display: flex;
+  gap: 160px;
+}
+
+.money-print_img {
+  display: flex;
+}
+
+/* FILL */
+
+.fill-text {
+  padding-top: 30px;
+}
+
+.fill-icon_wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 140px);
+  row-gap: 10px;
+  column-gap: 60px;
+  padding-top: 30px;
+}
+
+.fill-icon_card {
+  display: flex;
+  width: 220px;
+}
+
+.fill-icon_card_img {
+  width: 24px;
+}
+
+/* PART-MONEY */
+
+.part-money {
+  padding-top: 30px;
+}
+
+.part-money-title {
+  margin-bottom: 15px;
+}
+
 
 
 
