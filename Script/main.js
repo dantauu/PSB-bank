@@ -791,6 +791,71 @@ if (LS_his_24.getItem('storyDataHistory_24')) {
 }
 
 
+/* LOCAL-STORAGE-HISTORY_200 */
+
+let storyDataHistory_200 = {}
+const formCheckHis_200 = document.querySelector('.document-form_name')
+const LS_his_200 = localStorage
+
+formCheckHis_200.addEventListener('input', function (event) {
+	storyDataHistory_200[event.target.name] = event.target.value
+	LS_his_200.setItem('storyDataHistory_200', JSON.stringify(storyDataHistory_200))
+})
+
+//Проверка данных в LS
+
+if (LS_his_200.getItem('storyDataHistory_200')) {
+	storyDataHistory_200 = JSON.parse(LS_his_200.getItem('storyDataHistory_200'))
+	for (let key in storyDataHistory_200) {
+		formCheckHis_200.elements[key].value = storyDataHistory_200[key]
+	}
+}
+
+
+
+/* LOCAL-STORAGE-HISTORY_201 */
+
+let storyDataHistory_201 = {}
+const formCheckHis_201 = document.querySelector('.document-form_grup')
+const LS_his_201 = localStorage
+
+formCheckHis_201.addEventListener('input', function (event) {
+	storyDataHistory_201[event.target.name] = event.target.value
+	LS_his_201.setItem('storyDataHistory_201', JSON.stringify(storyDataHistory_201))
+})
+
+//Проверка данных в LS
+
+if (LS_his_201.getItem('storyDataHistory_201')) {
+	storyDataHistory_201 = JSON.parse(LS_his_201.getItem('storyDataHistory_201'))
+	for (let key in storyDataHistory_201) {
+		formCheckHis_201.elements[key].value = storyDataHistory_201[key]
+	}
+}
+
+
+/* LOCAL-STORAGE-HISTORY_202 */
+
+let storyDataHistory_202 = {}
+const formCheckHis_202 = document.querySelector('.money-in-text_inner')
+const LS_his_202 = localStorage
+
+formCheckHis_202.addEventListener('input', function (event) {
+	storyDataHistory_202[event.target.name] = event.target.value
+	LS_his_202.setItem('storyDataHistory_202', JSON.stringify(storyDataHistory_202))
+})
+
+//Проверка данных в LS
+
+if (LS_his_202.getItem('storyDataHistory_202')) {
+	storyDataHistory_202 = JSON.parse(LS_his_202.getItem('storyDataHistory_202'))
+	for (let key in storyDataHistory_202) {
+		formCheckHis_202.elements[key].value = storyDataHistory_202[key]
+	}
+}
+
+
+
 
 /* LOCAL-STORAGE-DOCUMENT */
 
