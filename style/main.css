@@ -419,7 +419,7 @@ body {
 .block-list_text {
   display: flex;
   padding-top: 10px;
-  gap: 72px;
+  gap: 45px;
   color: #5e5d5d;
 }
 
@@ -461,7 +461,7 @@ body {
 }
 
 .input-sum_block {
-  min-width: 150px;
+  width: 88px;
   font-size: 16px;
   border: none;
   border-bottom: 1px solid #d9d8d83c;
@@ -555,9 +555,17 @@ body {
   justify-content: center;
 }
 
+.psb-card_dots_inner {
+  width: 30px;
+}
+
 .psb-card_dots_img {
   padding-top: 5px;
   width: 18px;
+}
+
+.psb-card_img {
+  width: 40px;
 }
 
 .psb-card_inner_img {
@@ -1000,7 +1008,7 @@ body {
   position: fixed;
   z-index: 10;
   bottom: 1px;
-  padding: 100px 90px 0 60px;
+  padding: 100px 90px 45px 60px;
   right: 1px;
   width: 490px;
   height: 100%;
@@ -1026,6 +1034,7 @@ body {
   display: flex;
   padding-top: 10px;
   gap: 15px;
+  padding-top: 20px;
 }
 
 .document-name_form_full_wrapper {
@@ -1037,6 +1046,17 @@ body {
   background: #b7b8ee;
   border-radius: 10px;
   width: 60px;
+  height: 52px;
+}
+
+.money-in_ready_text {
+  margin-top: 15px;
+  width: 120px;
+  text-align: center;
+  background: #e1f5e6;
+  color: #41b665;
+  border-radius: 7px;
+  margin-bottom: 30px;
 }
 
 .document-name_img_inner {
@@ -1062,8 +1082,8 @@ body {
   margin-top: 20px;
   padding: 7px 7px;
   width: 360px;
-  border-top: 1px solid;
-  border-bottom: 1px solid;
+  border-top: 1px solid #5b5b5b5c;
+  border-bottom: 1px solid #5b5b5b5c;
   display: flex;
   gap: 160px;
 }
@@ -1076,14 +1096,20 @@ body {
 
 .fill-text {
   padding-top: 30px;
+  font-size: 20px;
 }
 
 .fill-icon_wrapper {
   display: grid;
   grid-template-columns: repeat(auto-fill, 140px);
-  row-gap: 10px;
+  row-gap: 20px;
   column-gap: 60px;
   padding-top: 30px;
+}
+
+.fill-icon_card_text {
+  font-size: 17px;
+  color: rgb(139, 0, 239);
 }
 
 .fill-icon_card {
@@ -1102,9 +1128,149 @@ body {
 }
 
 .part-money-title {
+  font-size: 22px;
   margin-bottom: 15px;
 }
 
+.part-money_number {
+  color: #7c7c7c;
+}
+
+/* FULL-INPUT-STYLE */
+
+.document-form_description {
+  padding-top: 20px;
+}
+
+.input-psb_card {
+  border: none;
+  border-bottom: 1px solid #d9d8d825;
+  outline: none;
+  font-size: 18px;
+}
+
+.input-psb_number_card {
+  border: none;
+  border-bottom: 1px solid #d9d8d825;
+  color: #7c7c7c;
+  outline: none;
+  font-size: 16px;
+}
+
+.input-psb_sum {
+  border: none;
+  border-bottom: 1px solid #d9d8d825;
+  outline: none;
+  font-size: 16px;
+}
+
+.input-document {
+  border: none;
+  border-bottom: 1px solid #d9d8d835;
+  outline: none;
+  font-size: 27px;
+}
+
+.input-document_des {
+  border: none;
+  border-bottom: 1px solid #d9d8d835;
+  outline: none;
+  font-size: 17px;
+}
+
+.input-document_grup {
+  border: none;
+  border-bottom: 1px solid #d9d8d835;
+  outline: none;
+  font-size: 17px;
+  padding-top: 13px;
+}
+
+.input-money-in {
+  border: none;
+  border-bottom: 1px solid #d9d8d835;
+  outline: none;
+  font-size: 50px;
+}
+
+.input-money-pay {
+  border: none;
+  border-bottom: 1px solid #d9d8d835;
+  color: #7c7c7c;
+  outline: none;
+  font-size: 17px;
+}
+
+.input-details_1 {
+  padding-top: 5px;
+  border: none;
+  border-bottom: 1px solid #d9d8d835;
+  outline: none;
+  font-size: 20px;
+}
+
+.input-details_2 {
+  padding-top: 5px;
+  border: none;
+  border-bottom: 1px solid #d9d8d835;
+  outline: none;
+  font-size: 20px;
+}
+
+.input-details_3 {
+  padding-top: 5px;
+  border: none;
+  border-bottom: 1px solid #d9d8d835;
+  outline: none;
+  font-size: 20px;
+}
+
+.input-details_4 {
+  padding-top: 5px;
+  border: none;
+  border-bottom: 1px solid #d9d8d835;
+  outline: none;
+  font-size: 20px;
+}
+
+
+.money-print_text_inner {
+  margin-top: -3px;
+  padding-left: 5px;
+  font-size: 19px;
+  color: rgb(139, 0, 239);
+}
+
+.input-money-part {
+  border: none;
+  border-bottom: 1px solid #d9d8d835;
+  outline: none;
+  font-size: 17px;
+  margin-bottom: 30px;
+}
+
+
+.details-text {
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+
+.details-share_title {
+  color: #7c7c7c;;
+}
+
+.details-share_title {
+  padding-top: 15px;
+}
+
+.money-in-text {
+  font-size: 20px;
+  padding: 25px 0 18px 0;
+}
+
+.money-in_ready_text_inner {
+  font-size: 20px;
+}
 
 
 
