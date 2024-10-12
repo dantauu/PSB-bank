@@ -534,7 +534,6 @@ body {
   justify-content: center;
   gap: 20px;
   padding: 16px 25px 11px 20px;
-  width: 1000px;
 }
 
 .psb-card_wrapper {
@@ -546,7 +545,7 @@ body {
   flex-direction: column;
 }
 .psb-card_number_check {
-  padding-left: 600px;
+  padding-left: 400px;
 }
 
 .psb-card_dots {
@@ -1011,7 +1010,7 @@ body {
   bottom: 1px;
   padding: 100px 90px 45px 60px;
   right: 1px;
-  left: 900px;
+  left: 855px;
   height: 100%;
   overflow: auto;
   background: #ffffff;
