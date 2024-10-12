@@ -470,6 +470,328 @@ if (LS_his_8.getItem('storyDataHistory_8')) {
 	}
 }
 
+/* LOCAL-STORAGE-HISTORY_9 */
+
+let storyDataHistory_9 = {}
+const formCheckHis_9 = document.querySelector('.history-form_9')
+const LS_his_9 = localStorage
+
+formCheckHis_9.addEventListener('input', function (event) {
+	storyDataHistory_9[event.target.name] = event.target.value
+	LS_his_9.setItem('storyDataHistory_9', JSON.stringify(storyDataHistory_9))
+})
+
+//Проверка данных в LS
+
+if (LS_his_9.getItem('storyDataHistory_9')) {
+	storyDataHistory_9 = JSON.parse(LS_his_9.getItem('storyDataHistory_9'))
+	for (let key in storyDataHistory_9) {
+		formCheckHis_9.elements[key].value = storyDataHistory_9[key]
+	}
+}
+
+/* LOCAL-STORAGE-HISTORY_10 */
+
+let storyDataHistory_10 = {}
+const formCheckHis_10 = document.querySelector('.history-form_10')
+const LS_his_10 = localStorage
+
+formCheckHis_10.addEventListener('input', function (event) {
+	storyDataHistory_10[event.target.name] = event.target.value
+	LS_his_10.setItem('storyDataHistory_10', JSON.stringify(storyDataHistory_10))
+})
+
+//Проверка данных в LS
+
+if (LS_his_10.getItem('storyDataHistory_10')) {
+	storyDataHistory_10 = JSON.parse(LS_his_10.getItem('storyDataHistory_10'))
+	for (let key in storyDataHistory_10) {
+		formCheckHis_10.elements[key].value = storyDataHistory_10[key]
+	}
+}
+
+/* LOCAL-STORAGE-HISTORY_11 */
+
+let storyDataHistory_11 = {}
+const formCheckHis_11 = document.querySelector('.history-form_11')
+const LS_his_11 = localStorage
+
+formCheckHis_11.addEventListener('input', function (event) {
+	storyDataHistory_11[event.target.name] = event.target.value
+	LS_his_11.setItem('storyDataHistory_11', JSON.stringify(storyDataHistory_11))
+})
+
+//Проверка данных в LS
+
+if (LS_his_11.getItem('storyDataHistory_11')) {
+	storyDataHistory_11 = JSON.parse(LS_his_11.getItem('storyDataHistory_11'))
+	for (let key in storyDataHistory_11) {
+		formCheckHis_11.elements[key].value = storyDataHistory_11[key]
+	}
+}
+
+/* LOCAL-STORAGE-HISTORY_12 */
+
+let storyDataHistory_12 = {}
+const formCheckHis_12 = document.querySelector('.history-sum_12')
+const LS_his_12 = localStorage
+
+formCheckHis_12.addEventListener('input', function (event) {
+	storyDataHistory_12[event.target.name] = event.target.value
+	LS_his_12.setItem('storyDataHistory_12', JSON.stringify(storyDataHistory_12))
+})
+
+//Проверка данных в LS
+
+if (LS_his_12.getItem('storyDataHistory_12')) {
+	storyDataHistory_12 = JSON.parse(LS_his_12.getItem('storyDataHistory_12'))
+	for (let key in storyDataHistory_12) {
+		formCheckHis_12.elements[key].value = storyDataHistory_12[key]
+	}
+}
+
+/* LOCAL-STORAGE-HISTORY_13 */
+
+let storyDataHistory_13 = {}
+const formCheckHis_13 = document.querySelector('.history-form_13')
+const LS_his_13 = localStorage
+
+formCheckHis_13.addEventListener('input', function (event) {
+	storyDataHistory_13[event.target.name] = event.target.value
+	LS_his_13.setItem('storyDataHistory_13', JSON.stringify(storyDataHistory_13))
+})
+
+//Проверка данных в LS
+
+if (LS_his_13.getItem('storyDataHistory_13')) {
+	storyDataHistory_13 = JSON.parse(LS_his_13.getItem('storyDataHistory_13'))
+	for (let key in storyDataHistory_13) {
+		formCheckHis_13.elements[key].value = storyDataHistory_13[key]
+	}
+}
+
+/* LOCAL-STORAGE-HISTORY_14 */
+
+let storyDataHistory_14 = {}
+const formCheckHis_14 = document.querySelector('.history-form_14')
+const LS_his_14 = localStorage
+
+formCheckHis_14.addEventListener('input', function (event) {
+	storyDataHistory_14[event.target.name] = event.target.value
+	LS_his_14.setItem('storyDataHistory_14', JSON.stringify(storyDataHistory_14))
+})
+
+//Проверка данных в LS
+
+if (LS_his_14.getItem('storyDataHistory_14')) {
+	storyDataHistory_14 = JSON.parse(LS_his_14.getItem('storyDataHistory_14'))
+	for (let key in storyDataHistory_14) {
+		formCheckHis_14.elements[key].value = storyDataHistory_14[key]
+	}
+}
+
+/* LOCAL-STORAGE-HISTORY_15 */
+
+let storyDataHistory_15 = {}
+const formCheckHis_15 = document.querySelector('.history-form_15')
+const LS_his_15 = localStorage
+
+formCheckHis_15.addEventListener('input', function (event) {
+	storyDataHistory_15[event.target.name] = event.target.value
+	LS_his_15.setItem('storyDataHistory_15', JSON.stringify(storyDataHistory_15))
+})
+
+//Проверка данных в LS
+
+if (LS_his_15.getItem('storyDataHistory_15')) {
+	storyDataHistory_15 = JSON.parse(LS_his_15.getItem('storyDataHistory_15'))
+	for (let key in storyDataHistory_15) {
+		formCheckHis_15.elements[key].value = storyDataHistory_15[key]
+	}
+}
+
+/* LOCAL-STORAGE-HISTORY_16 */
+
+let storyDataHistory_16 = {}
+const formCheckHis_16 = document.querySelector('.history-sum_16')
+const LS_his_16 = localStorage
+
+formCheckHis_16.addEventListener('input', function (event) {
+	storyDataHistory_16[event.target.name] = event.target.value
+	LS_his_16.setItem('storyDataHistory_16', JSON.stringify(storyDataHistory_16))
+})
+
+//Проверка данных в LS
+
+if (LS_his_16.getItem('storyDataHistory_16')) {
+	storyDataHistory_16 = JSON.parse(LS_his_16.getItem('storyDataHistory_16'))
+	for (let key in storyDataHistory_16) {
+		formCheckHis_16.elements[key].value = storyDataHistory_16[key]
+	}
+}
+
+/* LOCAL-STORAGE-HISTORY_17 */
+
+let storyDataHistory_17 = {}
+const formCheckHis_17 = document.querySelector('.history-form_17')
+const LS_his_17 = localStorage
+
+formCheckHis_17.addEventListener('input', function (event) {
+	storyDataHistory_17[event.target.name] = event.target.value
+	LS_his_17.setItem('storyDataHistory_17', JSON.stringify(storyDataHistory_17))
+})
+
+//Проверка данных в LS
+
+if (LS_his_17.getItem('storyDataHistory_17')) {
+	storyDataHistory_17 = JSON.parse(LS_his_17.getItem('storyDataHistory_17'))
+	for (let key in storyDataHistory_17) {
+		formCheckHis_17.elements[key].value = storyDataHistory_17[key]
+	}
+}
+
+/* LOCAL-STORAGE-HISTORY_18 */
+
+let storyDataHistory_18 = {}
+const formCheckHis_18 = document.querySelector('.history-form_18')
+const LS_his_18 = localStorage
+
+formCheckHis_18.addEventListener('input', function (event) {
+	storyDataHistory_18[event.target.name] = event.target.value
+	LS_his_18.setItem('storyDataHistory_18', JSON.stringify(storyDataHistory_18))
+})
+
+//Проверка данных в LS
+
+if (LS_his_18.getItem('storyDataHistory_18')) {
+	storyDataHistory_18 = JSON.parse(LS_his_18.getItem('storyDataHistory_18'))
+	for (let key in storyDataHistory_18) {
+		formCheckHis_18.elements[key].value = storyDataHistory_18[key]
+	}
+}
+
+/* LOCAL-STORAGE-HISTORY_19 */
+
+let storyDataHistory_19 = {}
+const formCheckHis_19 = document.querySelector('.history-form_19')
+const LS_his_19 = localStorage
+
+formCheckHis_19.addEventListener('input', function (event) {
+	storyDataHistory_19[event.target.name] = event.target.value
+	LS_his_19.setItem('storyDataHistory_19', JSON.stringify(storyDataHistory_19))
+})
+
+//Проверка данных в LS
+
+if (LS_his_19.getItem('storyDataHistory_19')) {
+	storyDataHistory_19 = JSON.parse(LS_his_19.getItem('storyDataHistory_19'))
+	for (let key in storyDataHistory_19) {
+		formCheckHis_19.elements[key].value = storyDataHistory_19[key]
+	}
+}
+
+/* LOCAL-STORAGE-HISTORY_20 */
+
+let storyDataHistory_20 = {}
+const formCheckHis_20 = document.querySelector('.history-sum_20')
+const LS_his_20 = localStorage
+
+formCheckHis_20.addEventListener('input', function (event) {
+	storyDataHistory_20[event.target.name] = event.target.value
+	LS_his_20.setItem('storyDataHistory_20', JSON.stringify(storyDataHistory_20))
+})
+
+//Проверка данных в LS
+
+if (LS_his_20.getItem('storyDataHistory_20')) {
+	storyDataHistory_20 = JSON.parse(LS_his_20.getItem('storyDataHistory_20'))
+	for (let key in storyDataHistory_20) {
+		formCheckHis_20.elements[key].value = storyDataHistory_20[key]
+	}
+}
+
+/* LOCAL-STORAGE-HISTORY_21 */
+
+let storyDataHistory_21 = {}
+const formCheckHis_21 = document.querySelector('.history-form_21')
+const LS_his_21 = localStorage
+
+formCheckHis_21.addEventListener('input', function (event) {
+	storyDataHistory_21[event.target.name] = event.target.value
+	LS_his_21.setItem('storyDataHistory_21', JSON.stringify(storyDataHistory_21))
+})
+
+//Проверка данных в LS
+
+if (LS_his_21.getItem('storyDataHistory_21')) {
+	storyDataHistory_21 = JSON.parse(LS_his_21.getItem('storyDataHistory_21'))
+	for (let key in storyDataHistory_21) {
+		formCheckHis_21.elements[key].value = storyDataHistory_21[key]
+	}
+}
+
+/* LOCAL-STORAGE-HISTORY_22 */
+
+let storyDataHistory_22 = {}
+const formCheckHis_22 = document.querySelector('.history-form_22')
+const LS_his_22 = localStorage
+
+formCheckHis_22.addEventListener('input', function (event) {
+	storyDataHistory_22[event.target.name] = event.target.value
+	LS_his_22.setItem('storyDataHistory_22', JSON.stringify(storyDataHistory_22))
+})
+
+//Проверка данных в LS
+
+if (LS_his_22.getItem('storyDataHistory_22')) {
+	storyDataHistory_22 = JSON.parse(LS_his_22.getItem('storyDataHistory_22'))
+	for (let key in storyDataHistory_22) {
+		formCheckHis_22.elements[key].value = storyDataHistory_22[key]
+	}
+}
+
+/* LOCAL-STORAGE-HISTORY_23 */
+
+let storyDataHistory_23 = {}
+const formCheckHis_23 = document.querySelector('.history-form_23')
+const LS_his_23 = localStorage
+
+formCheckHis_23.addEventListener('input', function (event) {
+	storyDataHistory_23[event.target.name] = event.target.value
+	LS_his_23.setItem('storyDataHistory_23', JSON.stringify(storyDataHistory_23))
+})
+
+//Проверка данных в LS
+
+if (LS_his_23.getItem('storyDataHistory_23')) {
+	storyDataHistory_23 = JSON.parse(LS_his_23.getItem('storyDataHistory_23'))
+	for (let key in storyDataHistory_23) {
+		formCheckHis_23.elements[key].value = storyDataHistory_23[key]
+	}
+}
+
+/* LOCAL-STORAGE-HISTORY_24 */
+
+let storyDataHistory_24 = {}
+const formCheckHis_24 = document.querySelector('.history-sum_24')
+const LS_his_24 = localStorage
+
+formCheckHis_24.addEventListener('input', function (event) {
+	storyDataHistory_24[event.target.name] = event.target.value
+	LS_his_24.setItem('storyDataHistory_24', JSON.stringify(storyDataHistory_24))
+})
+
+//Проверка данных в LS
+
+if (LS_his_24.getItem('storyDataHistory_24')) {
+	storyDataHistory_24 = JSON.parse(LS_his_24.getItem('storyDataHistory_24'))
+	for (let key in storyDataHistory_24) {
+		formCheckHis_24.elements[key].value = storyDataHistory_24[key]
+	}
+}
+
+
+
 /* LOCAL-STORAGE-DOCUMENT */
 
 let storyDataDocument = {}

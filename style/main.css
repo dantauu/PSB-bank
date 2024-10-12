@@ -809,7 +809,6 @@ body {
 
 .history {
   padding-top: 20px;
-  padding-bottom: 100px;
 }
 
 .history-date {
@@ -822,7 +821,32 @@ body {
   cursor: pointer;
 }
 
-.history-wrapper:hover {
+.hov-1:hover {
+  background: #d9d8d86b;
+  border-radius: 10px;
+}
+
+.hov-2:hover {
+  background: #d9d8d86b;
+  border-radius: 10px;
+}
+
+.hov-3:hover {
+  background: #d9d8d86b;
+  border-radius: 10px;
+}
+
+.hov-4:hover {
+  background: #d9d8d86b;
+  border-radius: 10px;
+}
+
+.hov-5:hover {
+  background: #d9d8d86b;
+  border-radius: 10px;
+}
+
+.hov-6:hover {
   background: #d9d8d86b;
   border-radius: 10px;
 }
@@ -1169,21 +1193,24 @@ body {
   border: none;
   border-bottom: 1px solid #d9d8d835;
   outline: none;
-  font-size: 27px;
+  font-size: 16px;
+  width: 330px;
 }
 
 .input-document_des {
   border: none;
   border-bottom: 1px solid #d9d8d835;
   outline: none;
-  font-size: 17px;
+  font-size: 14px;
+  width: 340px;
 }
 
 .input-document_grup {
   border: none;
   border-bottom: 1px solid #d9d8d835;
   outline: none;
-  font-size: 17px;
+  font-size: 14px;
+  width: 340px;
   padding-top: 13px;
 }
 
@@ -1199,7 +1226,8 @@ body {
   border-bottom: 1px solid #d9d8d835;
   color: #7c7c7c;
   outline: none;
-  font-size: 17px;
+  font-size: 14px;
+  width: 450px;
 }
 
 .input-details_1 {
@@ -1207,7 +1235,8 @@ body {
   border: none;
   border-bottom: 1px solid #d9d8d835;
   outline: none;
-  font-size: 20px;
+  font-size: 13px;
+  width: 500px;
 }
 
 .input-details_2 {
@@ -1215,7 +1244,8 @@ body {
   border: none;
   border-bottom: 1px solid #d9d8d835;
   outline: none;
-  font-size: 20px;
+  font-size: 14px;
+  width: 300px;
 }
 
 .input-details_3 {
@@ -1223,7 +1253,8 @@ body {
   border: none;
   border-bottom: 1px solid #d9d8d835;
   outline: none;
-  font-size: 20px;
+  width: 300px;
+  font-size: 14px;
 }
 
 .input-details_4 {
@@ -1231,7 +1262,8 @@ body {
   border: none;
   border-bottom: 1px solid #d9d8d835;
   outline: none;
-  font-size: 20px;
+  font-size: 15px;
+  width: 300px;
 }
 
 
