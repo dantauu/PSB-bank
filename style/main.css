@@ -779,7 +779,7 @@ body {
   display: inline-block;
   width: 24px;
   height: 24px;
-  background-image: url("/img/checkm.svg");
+  background-image: url("../img/checkm.svg");
   background-size: contain;
   background-repeat: no-repeat;
   transform: scale(0);
