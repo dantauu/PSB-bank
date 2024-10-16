@@ -59,6 +59,14 @@ img {
       url(../fonts/Jost-Regular.woff) format('woff');
 }
 
+@font-face {
+    font-family: 'Montserrat-B';
+    font-weight: 700;
+    font-style: normal;
+    src: local('Montserrat-ExtraBold'),
+      url(../fonts/Montserrat-ExtraBold.woff) format('woff');
+}
+
 body {
   font-family: 'Jost-R';
 }
@@ -394,6 +402,10 @@ body {
   margin-top: 40px;
 }
 
+.font-set {
+  font-family: 'Montserrat-B';
+}
+
 .block-list_item:hover {
   color: #000000;
 }
@@ -481,6 +493,7 @@ body {
 }
 
 .check-title_inner {
+  color: #737373;
   font-size: 18px;
 }
 
@@ -508,7 +521,7 @@ body {
 }
 
 .four-link_text {
-  color: rgb(167, 0, 239);
+  color: #383ad1;
 }
 
 .four-link_inner {
@@ -816,7 +829,7 @@ body {
 }
 
 .history-wrapper {
-  padding: 15px 1px 15px 15px;
+  padding: 1px 1px 15px 15px;
   width: 1000px;
   cursor: pointer;
 }
@@ -851,6 +864,21 @@ body {
   border-radius: 10px;
 }
 
+.hov-7:hover {
+  background: #d9d8d86b;
+  border-radius: 10px;
+}
+
+.hov-8:hover {
+  background: #d9d8d86b;
+  border-radius: 10px;
+}
+
+.hov-9:hover {
+  background: #d9d8d86b;
+  border-radius: 10px;
+}
+
 .history-money_wrapper {
   display: flex;
   flex-direction: column;
@@ -860,6 +888,7 @@ body {
 .history-card {
   display: flex;
   gap: 15px;
+  margin-bottom: 30px;
 }
 
 .history-card_img {
@@ -1027,7 +1056,7 @@ body {
 }
 
 .document-wrapper {
-  transform: translateX(950px);
+  transform: translateX(1090px);
   transition: all 0.7s;
   position: fixed;
   z-index: 10;
